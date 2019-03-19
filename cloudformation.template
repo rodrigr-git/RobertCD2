@@ -101,7 +101,7 @@
           "Protocol" : "HTTP"
         } ],
         "HealthCheck" : {
-          "Target" : "HTTP:8080/api/compactDiscs",
+          "Target" : "HTTP:8080/compactdiscs",
           "HealthyThreshold" : "2",
           "UnhealthyThreshold" : "5",
           "Interval" : "10",
